@@ -14,7 +14,15 @@ var enviar = async () => {
                     throw "error al enviar"
                 }
             }).then((resp) => {
-                console.log(resp);
+                Swal.fire({
+                    title: 'Exito!',
+                    text: 'El Usuario ha sido registrado correctamente',
+                    icon: 'success',
+                    confirmButtonText: 'Continuar',
+                    allowOutsideClick: false
+                }).then((result) => {
+                    location.reload();
+                })
             })
         } else {
             document.getElementById("alerta").style.display = "block";

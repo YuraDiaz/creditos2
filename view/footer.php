@@ -7,3 +7,4 @@
     </div>
     <div class="py-3">© <?php echo (date("Y")) ?> Copyright:<a class="text-dark" href="index.html">Creditos Dos</a></div>
 </footer>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>

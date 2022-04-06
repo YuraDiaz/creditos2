@@ -9,6 +9,7 @@ switch ($_SERVER['REQUEST_METHOD']) {
         if (!isset($_POST["identificacion"]) && isset($_POST["correo"]) && isset($_POST["pass"])) {
             if (count($d = $users->login($_POST["correo"])) > 0 && password_verify($_POST["pass"], $d[0]["pass"])) {
                 $_SESSION["usuario_doc"] = $d[0]["documento"];
+                $_SESSION["usuario_name"] = $d[0]["nombre"] . " " . $d[0]["apellido"];
                 session_write_close();
                 die("1");
             } else {

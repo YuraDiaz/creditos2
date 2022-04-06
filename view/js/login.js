@@ -14,6 +14,17 @@ var enviar = async () => {
             }
         }).then((resp) => {
             console.log(resp);
+            if (resp == "0") {
+                Swal.fire({
+                    title: 'Error!',
+                    text: 'El Usuario o contraseña son incorrectos',
+                    icon: 'error',
+                    confirmButtonText: 'Intentar nuevamente',
+                    allowOutsideClick: false
+                })
+            } else {
+                location.href = "view/inicio";
+            }
         })
 
     })
