@@ -1,0 +1,16 @@
+.imagenlogin{
+    height: 100%;
+    width: 65%;
+    position: fixed;
+}
+.logonav{
+    height: 7%;
+    width: 7%;
+    margin: 0;
+}
+.alinear{
+    height: 100%;
+}
+#ordenar {
+    width: 30%;
+}
