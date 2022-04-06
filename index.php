@@ -38,14 +38,17 @@
                 </div>
                 <div class="card-body ">
                     <form id="login">
-                        <div class="mb-3">
-                            <label for="correo" class="form-label">Correo Electronico</label>
-                            <input type="email" class="form-control" id="correo" name="correo">
-
+                        <label for="correo" class="form-label">Correo Electronico</label>
+                        <div class="mb-3 input-group">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="email" class="form-control" id="correo" name="correo" aria-describedby="basic-addon1">
                         </div>
-                        <div class="mb-3">
-                            <label for="pass" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="pass" name="pass">
+
+                        <label for="pass" class="form-label">Contraseña</label>
+                        <div class="mb-3 input-group">
+                            <span class="input-group-text" id="basic-addon2"><i class="bi bi-lock"></i></span>
+
+                            <input type="password" class="form-control" id="pass" name="pass" aria-describedby="basic-addon2">
                         </div>
                         <div class="text-center">
                             <input type="submit" name="enviar" id="enviar" value="Ingresar" class="form-control btn-primary">
