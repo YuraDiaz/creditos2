@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <?php include_once("topbar1.php"); ?>
+    <?php include_once("topbar1_1.php"); ?>
     <div class="container-fluid position-absolute h-100 my-5 py-5">
         <div class="card w-75 mx-auto mb-5 pb-5">
             <div class="card-header text-center">FORMULARIO DE REGISTRO</div>

@@ -11,54 +11,29 @@
     <title>Login</title>
 </head>
 
-<body>
+<body class="color">
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger dflex justify-content-between fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="images/logo4.png" class="logonav" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="images/logo4.png" class="logonav" alt=""><em>nileMisak</em></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link" href="view/quienesSomos">Nosotros</a>
-                    <a class="nav-link" href="view/comunidades">Comunidades</a>
-                    <a class="nav-link" href="view/noticias">Noticias</a>
-
+                    <a class="nav-link text-center" href="view/login">Ingresar<i class="bi bi-person-circle"></i></a>
                 </div>
             </div>
         </div>
     </nav>
-    <div class="container-fluid p-0 ">
-        <img src="images/imglogin2.jpg" class="imagenlogin d-none d-md-block " alt="img login">
-
-        <div class="position-absolute h-100 w-100 d-flex justify-content-end p-5 align-items-center">
-            <div class="card" id="ordenar">
-                <div class="card-header text-center">
-                    Iniciar Sesion
-                </div>
-                <div class="card-body ">
-                    <form id="login">
-                        <label for="correo" class="form-label">Correo Electronico</label>
-                        <div class="mb-3 input-group">
-                            <span class="input-group-text" id="basic-addon1">@</span>
-                            <input type="email" class="form-control" id="correo" name="correo" aria-describedby="basic-addon1">
-                        </div>
-
-                        <label for="pass" class="form-label">Contraseña</label>
-                        <div class="mb-3 input-group">
-                            <span class="input-group-text" id="basic-addon2"><i class="bi bi-lock"></i></span>
-
-                            <input type="password" class="form-control" id="pass" name="pass" aria-describedby="basic-addon2">
-                        </div>
-                        <div class="text-center">
-                            <input type="submit" name="enviar" id="enviar" value="Ingresar" class="form-control btn-primary">
-                        </div>
-
-                    </form>
-                    <div class="mt-3 text-center">
-                        Si no tienes cuenta. <a href="view/registro">Registrate</a>
-                    </div>
-
+    <div class="container mt-5 pt-5 ">
+        <div class="card mt-5">
+            <p class="card-header text-center fw-bold fs-1"><em>BIENVENIDOS nileMisak</em></p>
+            <div class="card-body">
+                <p class="card-text text-center">Para ver el contenido de nuestra pagina registrate o inicia seción.</p>
+                <div class="text-center">
+                    <a href="view/login.php" class="btn btn-primary fw-bold">Login</a>
+                    <a href="view/registro.php" class="btn btn-primary fw-bold">Registrarce</a>
                 </div>
             </div>
         </div>
