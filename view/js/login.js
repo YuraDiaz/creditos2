@@ -1,8 +1,9 @@
-var enviar = async() => {
+var enviar = async () => {
     let formulario = document.getElementById("login");
     formulario.addEventListener("submit", (e) => {
         e.preventDefault();
         let d = new FormData(formulario);
+        d.append("option", "login");
         let env = fetch("../controller/usuarios.php", {
             method: "POST",
             body: d
@@ -14,7 +15,7 @@ var enviar = async() => {
             }
         }).then((resp) => {
             console.log(resp);
-            if (resp == "0") {
+            if (resp == "error") {
                 Swal.fire({
                     title: 'Error!',
                     text: 'El Usuario o contraseña son incorrectos',

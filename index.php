@@ -30,10 +30,10 @@
         <div class="card mt-5">
             <p class="card-header text-center fw-bold fs-1"><em>BIENVENIDOS nileMisak</em></p>
             <div class="card-body">
-                <p class="card-text text-center">Para ver el contenido de nuestra pagina registrate o inicia seción.</p>
+                <p class="card-text text-center">Para ver el contenido de nuestra pagina registrate o inicia sesion.</p>
                 <div class="text-center">
                     <a href="view/login.php" class="btn btn-primary fw-bold">Login</a>
-                    <a href="view/registro.php" class="btn btn-primary fw-bold">Registrarce</a>
+                    <a href="view/registro.php" class="btn btn-primary fw-bold">Registrarse</a>
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@
 
     <?php include("view/footer.php"); ?>
     <script src="assets/bootstrap/js/bootstrap.js"></script>
-    <script src="view/js/login.js"></script>
+
 </body>
 
 </html>

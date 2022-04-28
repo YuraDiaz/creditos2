@@ -20,8 +20,8 @@
                         <i class="bi bi-person-circle"></i> <?php echo ($_SESSION["usuario_name"]); ?>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#"><i class="bi bi-person"></i> Mi perfil</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="bi bi-arrow-bar-right"></i> Cerrar Sesion</a></li>
+                        <li><a class="dropdown-item" href="perfil"><i class="bi bi-person"></i> Mi perfil</a></li>
+                        <li onclick="closeSession();"><a class="dropdown-item"><i class="bi bi-arrow-bar-right"></i> Cerrar Sesion</a></li>
 
                     </ul>
                 </li>
