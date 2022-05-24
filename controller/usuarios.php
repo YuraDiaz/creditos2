@@ -54,7 +54,7 @@ switch ($option) {
                             "apellido" => $_POST["apellidos"],
                             "direccion" => $_POST["direccion"],
                             "ciudad" => $_POST["ciudad"],
-                            "correo" => $_POST["correo"],
+                            "email" => $_POST["correo"],
                             "id" => $_POST["id"]
                         ];
                         if ($users->updateUser($datos)) {

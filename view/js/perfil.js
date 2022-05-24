@@ -45,6 +45,7 @@ var enviarDatos = async () => {
             throw "error al enviar"
         }
     }).then((resp) => {
+        console.log(resp);
         if (resp == "ok") {
             mostrarSweet({
                 texto: 'Usuario modificado correctamente',
