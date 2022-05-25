@@ -30,7 +30,7 @@
                                     <p class="card-text"> <em><b>Población:</b></em> 28.000 habitantes.</p>
                                     <p class="card-text"> <em><b>Idioma:</b></em> Namtrik.</p>
                                     <p class="card-text"> <em><b>Organización:</b></em> Nu Nak Chak.</p>
-                                    <a href="#" class="btn btn-primary">Aprende Mas</a>
+                                    <a href="niveles" class="btn btn-primary">Aprende Mas</a>
                                 </div>
                             </div>
                         </td>
